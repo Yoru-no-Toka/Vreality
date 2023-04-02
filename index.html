@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Vreality</title>
+  </head>
+  <body>
+    <div class="bg-holder"></div>
+    <header class="header">
+      <div class="wrapper">
+        <a href="#" class="logo-link">
+          <svg width="95" height="27">
+            <use xlink:href="./assets/img/logo.svg#logo"></use>
+          </svg>
+        </a>
+        <nav class="nav">
+          <a href="#" class="nav-link">О клубе</a>
+          <a href="#" class="nav-link">Залы</a>
+          <a href="#" class="nav-link">Игры</a>
+          <a href="#" class="nav-link">Цены</a>
+          <a href="#" class="nav-link">Контакты</a>
+        </nav>
+        <a href="#" class="btn-outline">Забронировать</a>
+        <a href="#" class="tel-link">8 (925)880-15-12</a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="promo">
+        <div class="wrapper">
+          <h1 class="heading">Иследуй виртуальную реальность</h1>
+          <p class="description">
+            Виртуальная реальностью может быть веселой, но это также может быть
+            очень страшным. Проведи свое время незабываемо в VR-клубе
+          </p>
+          <div class="promo-menu">
+            <a href="#" class="btn">Выбрать игру</a>
+            <a href="#" class="btn-outline-pink">Наши цены</a>
+          </div>
+          <div class="socials">
+            <a href="#" class="socials-link">
+              <div class="vk-icon">
+                <svg width="32" height="32">
+                  <use xlink:href="./assets/icons/wk-icon.svg#wk-icon"></use>
+                </svg>
+              </div>
+            </a>
+            <a href="#" class="socials-link">
+              <div class="fb-icon">
+                <svg width="32" height="32">
+                  <use xlink:href="./assets/icons/fb-icon.svg#fb-icon"></use>
+                </svg>
+              </div>
+            </a>
+            <a href="#" class="socials-link">
+              <div class="yt-icon">
+                <svg width="30" height="23">
+                  <use xlink:href="./assets/icons/yt-icon.svg#yt-icon"></use>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="wrapper">
+          <h2 class="subheading">О нашем клубе</h2>
+          <div class="content">
+            <img src="./assets/img/about-bg.png" alt="img" class="about-img" />
+            <div class="text-content">
+              <div class="svg-text">
+                <svg width="300" height="100">
+                  <use xlink:href="./assets/img/ssvg-text.svg#svg-text"></use>
+                </svg>
+              </div>
+              <p class="text">
+                Наш клуб виртуальной реальности начал свою деятельность не так
+                давно. Тем не менее, мы уверены - вскоре о нас узнают далеко за
+                пределами компьютерных залов.
+              </p>
+              <p class="text">
+                Мы делаем виртуальные миры доступными каждому, приходите и
+                испытайте эти ощущения сами!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="halls">
+        <div class="wrapper">
+          <h2 class="subheading">Игровые залы</h2>
+          <div class="halls-list">
+            <div class="hall-card">
+              <img
+                src="./assets/img/Rectangle 11.jpg"
+                alt="img-hall"
+                class="hall-preview"
+              />
+              <h3 class="hall-subheading">Розовый зал</h3>
+              <p class="hall-text">
+                Аренда розового зала : 9 VR зон - Standart VR, PS 4 Pro, KAT VR
+                до 10 человек
+              </p>
+              <a href="#" class="hall-button">Забронировать</a>
+            </div>
+            <div class="hall-card">
+              <img
+                src="./assets/img/Rectangle 11.jpg"
+                alt="img-hall"
+                class="hall-preview"
+              />
+              <h3 class="hall-subheading">Розовый зал</h3>
+              <p class="hall-text">
+                Аренда розового зала : 9 VR зон - Standart VR, PS 4 Pro, KAT VR
+                до 10 человек
+              </p>
+              <a href="#" class="hall-button">Забронировать</a>
+            </div>
+            <div class="hall-card">
+              <img
+                src="./assets/img/Rectangle 11.jpg"
+                alt="img-hall"
+                class="hall-preview"
+              />
+              <h3 class="hall-subheading">Розовый зал</h3>
+              <p class="hall-text">
+                Аренда розового зала : 9 VR зон - Standart VR, PS 4 Pro, KAT VR
+                до 10 человек
+              </p>
+              <a href="#" class="hall-button">Забронировать</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="play">
+        <div class="wrapper">
+          <h2 class="subheading">Во что поиграть</h2>
+          <div class="content">
+            <div class="swiper-menu">
+              <button class="swiper-btn active">Популярные</button>
+              <button class="swiper-btn">Шутеры</button>
+              <button class="swiper-btn">Групповые</button>
+              <button class="swiper-btn">Хорроры</button>
+              <button class="swiper-btn">Творческие</button>
+              <button class="swiper-btn">Детские</button>
+            </div>
+            <!-- Slider main container -->
+            <div class="swiper-container">
+              <div class="swiper-left">
+                <svg
+                  id="left-arrow"
+                  width="74"
+                  height="94"
+                  viewBox="0 0 74 94"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_d_70_99)">
+                    <path
+                      d="M47 18L26 40M48 60L26 38.1562"
+                      stroke="url(#paint0_linear_70_99)"
+                      stroke-width="3"
+                    />
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_d_70_99"
+                      x="0.915039"
+                      y="0.964355"
+                      width="72.1418"
+                      height="92.1001"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      />
+                      <feOffset dy="8" />
+                      <feGaussianBlur stdDeviation="12" />
+                      <feComposite in2="hardAlpha" operator="out" />
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0.505882 0 0 0 0 0.529412 0 0 0 0 0.741176 0 0 0 0.15 0"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in2="BackgroundImageFix"
+                        result="effect1_dropShadow_70_99"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_70_99"
+                        result="shape"
+                      />
+                    </filter>
+                    <linearGradient
+                      id="paint0_linear_70_99"
+                      x1="47"
+                      y1="18"
+                      x2="47.9171"
+                      y2="60.9991"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#E32966" />
+                      <stop offset="1" stop-color="#990F3C" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="swiper-right">
+                <svg
+                  id="right-arrow"
+                  width="74"
+                  height="94"
+                  viewBox="0 0 74 94"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_d_70_100)">
+                    <path
+                      d="M27 18L48 40M26 60L48 38.1562"
+                      stroke="url(#paint0_linear_70_100)"
+                      stroke-width="3"
+                    />
+                  </g>
+                  <defs>
+                    <filter
+                      id="filter0_d_70_100"
+                      x="0.943115"
+                      y="0.964355"
+                      width="72.1418"
+                      height="92.1001"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      />
+                      <feOffset dy="8" />
+                      <feGaussianBlur stdDeviation="12" />
+                      <feComposite in2="hardAlpha" operator="out" />
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0.505882 0 0 0 0 0.529412 0 0 0 0 0.741176 0 0 0 0.15 0"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in2="BackgroundImageFix"
+                        result="effect1_dropShadow_70_100"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_70_100"
+                        result="shape"
+                      />
+                    </filter>
+                    <linearGradient
+                      id="paint0_linear_70_100"
+                      x1="27"
+                      y1="18"
+                      x2="26.0829"
+                      y2="60.9991"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#E32966" />
+                      <stop offset="1" stop-color="#990F3C" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img src="./assets/img/slide-beat.jpg" alt="img-slide" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="slide-img"
+                      src="./assets/img/slide-lyx.jpg"
+                      alt="img-slide"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="slide-img"
+                      src="./assets/img/skyrim.jpg"
+                      alt="img-slide"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="slide-img"
+                      src="./assets/img/slide-beat.jpg"
+                      alt="img-slide"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="slide-img"
+                      src="./assets/img/slide-lyx.jpg"
+                      alt="img-slide"
+                    />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                      class="slide-img"
+                      src="./assets/img/skyrim.jpg"
+                      alt="img-slide"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="prices">
+        <div class="wrapper">
+          <h2 class="subheading">Цены</h2>
+          <div class="table">
+            <div class="table-head">
+              <div class="tc th tha">
+                <span class="players">Игроки</span
+                ><span class="time">Время</span>
+              </div>
+              <div class="tc th">30 минут</div>
+              <div class="tc th">50 минут</div>
+              <div class="tc th">70 минут</div>
+            </div>
+            <div class="table-body">
+              <div class="col">
+                <div class="tc">1 игрок</div>
+                <div class="tc">2 игрок</div>
+                <div class="tc">3 игрок</div>
+                <div class="tc">4 игрок</div>
+              </div>
+              <div class="col">
+                <div class="tc">500 руб.</div>
+                <div class="tc">900 руб.</div>
+                <div class="tc">1200 руб.</div>
+                <div class="tc">1400 руб.</div>
+              </div>
+              <div class="col">
+                <div class="tc">900 руб.</div>
+                <div class="tc">1600 руб.</div>
+                <div class="tc">2300 руб.</div>
+                <div class="tc">2600 руб.</div>
+              </div>
+              <div class="col">
+                <div class="tc">150 руб.</div>
+                <div class="tc">250 руб.</div>
+                <div class="tc">350 руб.</div>
+                <div class="tc">500 руб.</div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn price-btn">Забронировать</a>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./scripts/swiper.js"></script>
+  </body>
+</html>
